@@ -1,0 +1,13 @@
+a=int(input("enter 1st number"))
+b=int(input("enter 2nd number"))
+opsy=input("enter simple calculator operator like + ,-,*,/=")
+if(opsy=="+"):
+    print(a+b)
+elif(opsy=="-"):
+    print(a-b)
+elif(opsy=="*"):
+    print(a*b)
+elif(opsy=="/"):
+    print(a/b)
+else:
+    print("invalid symbol operator calculator")
